@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headBox {
+    width: 1263px;
+    height: 150px;
+}
+
+.head_logo {
+    width: 600px;
+    margin-left: 125px;
+}
+
+.head_logo a {
+    width: 520px;
+    height: 100px;
+    display: block;
+    float: left;
+    padding-top: 30px;
+}
+
+.head_right {
+    float: right;
+    margin-right: 50px;
+}
+
+.head_right>ul {
+    margin: 30px 50px;
+}
+
+.head_right>ul>li {
+    border-left: 1px solid #abcdef;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+input[type=text] {
+    height: 20px;
+    outline: none;
+    margin-top: 3px;
+    line-height: 30px;
+}
+
+.search_box {
+    display: inline;
+}
+
+.head_search {
+    float: right;
+    margin-right: 66px;
+}
+
+.nav {
+    position: relative;
+    width: 1263px;
+    height: 60px;
+    background-color: #abcdef;
+}
+
+#onav {
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+    width: 1050px;
+    margin: 0 75px;
+    color: #fff;
+}
+
+.one_nav {
+    height: 60px;
+    list-style: none;
+    float: left;
+    width: 150px;
+    text-align: center;
+    line-height: 370%;
+    color: #FFF;
+}
+
+.one_nav:hover {
+    background-color: #0d2236;
+    color: #fff;
+}
+
+.one_nav ul {
+    height: 60px;
+    list-style: none;
+    text-align: center;
+    display: none;
+    color: #FFF;
+}
+.one_nav  a{
+    color: #fff !important;
+}
+
+.one_nav:hover ul {
+    z-index: 1000;
+    display: block;
+}
+
+.two_nav li {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    line-height: 200%;
+    background-color: #0d2236;
+    color: silver;
+}
+
+.two_nav li:hover {
+    color: rgb(193, 228, 129);
+}
+
+.play {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.banner-slide img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+
+.banner-slide {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.slide-active {
+    display: block;
+}
+
+
+.button {
+    position: absolute;
+    transform: rotate(180deg);
+    top: 50%;
+    height: 80px;
+    width: 40px;
+    margin-top: -40px;
+    background: url(../images/arrow.png) center center no-repeat;
+}
+
+.next {
+    transform: rotate(0deg);
+    left: auto;
+    right: 0;
+}
+
+.button:hover {
+    background-color: #333;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.dots {
+    position: absolute;
+    bottom: 24px;
+    right: 0;
+    text-align: right;
+    padding-right: 24px;
+    line-height: 12px;
+}
+
+.dots span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 8px;
+    background-color: rgba(7, 17, 27, 0.4);
+    cursor: pointer;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
+}
+
+.dots span.active {
+    box-shadow: 0 0 0 2px rgba(7, 17, 27, 0.4) inset;
+    background-color: #ffffff;
+}
+
+
+.footer {
+    width: 1263px;
+    background-color: #abcdef;
+    height: 60px;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.content span {
+    display: inline-block;
+    width: 310px;
+    text-align: center;
+    font-size: 12px;
+}
+a{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+
+#message{
+			margin:20px auto;
+			width:1070px;
+		}
+	    .information{
+	    	margin-left:20px;
+	    	width:31%;
+	    }
+	    .information div{
+	    	overflow: hidden;
+	    	padding-left:10px;
+	    	background-color: #E3E6E6;
+	    	border-radius: 20px 0 0 0;
+	    }
+	     .information div img{
+	     	float:left;
+	     	width:40px;
+	     	height:40px;
+	     }
+	    .information div h3{
+            float:left;
+	    	padding:5px 0 0 12px;
+	    	height:30px;
+	    	font-size: 16px;
+	    	line-height: 30px;
+	    }
+	    .information div p{
+            float:right;
+	    	padding:10px 12px 0 0;
+	    	height:35px;
+	    	vertical-align: middle;
+	    	font-size: 12px;
+	    }
+	    .information div p:hover{
+	    	text-decoration: underline;
+	    }
+	    .information ul{
+           width:100%;
+           padding:10px;
+	    }
+	    .information ul li{
+	    	margin:10px 0;
+	    	padding:2px;
+	    	width:100%;
+	    	list-style: none;
+	    	overflow: hidden;
+	    	border-bottom: 1px dashed #cfcfcf;
+	    }
+	    .information ul li img{
+	    	display: block;
+	    	float:left;
+	    	width:18px;
+	    	height:18px;
+	    }
+	    .information ul li .content{
+	    	float:left;
+	    	margin-left:30px;
+	    	width:60%;
+	    	height:100%;
+	    	font-size: 15px;
+	    	display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 1;
+			overflow: hidden;
+	    }
+	    .information ul li .time{
+            margin-right:10px;
+	    	float:right;
+	    	width:20%;
+	    	height:100%;
+	    	text-align: right;
+	    	font-size:12px;
+	    }
+		/*结束信息展示*/

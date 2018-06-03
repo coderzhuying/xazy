@@ -1,0 +1,177 @@
+       *{
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+		a{
+			text-decoration: none;
+			color:black;
+		}
+		/*logo里面的东西*/
+		#logo{
+			width:100%;
+			height:150px;
+			background-color: #EFEFEF;
+		}
+		#logo div{
+			width:1040px;
+			height:100%;
+			margin:0 auto;
+		}
+		#logo img{
+			display: block;
+		}
+		#head{
+			margin:0 auto;
+			width:100%;
+			height:50px;
+			background: -webkit-linear-gradient(#FBFCFC, #DEE2E2); /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(#FBFCFC, #DEE2E2); /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(#FBFCFC, #DEE2E2); /* Firefox 3.6 - 15 */
+            background: linear-gradient(#FBFCFC, #DEE2E2); /* 标准的语法 */
+		}
+		#head ul{
+			margin:0 auto;
+			width:1070px;
+			height:100%;
+		}
+		#head ul li{
+			float:left;
+			margin-left:10px;
+			width:10%;
+			height:100%;
+			list-style: none;
+			line-height: 50px;
+			text-align: center;
+			font-size: 15px;
+			transition: all 1s;
+		}
+		#head ul li p:hover{
+			color:#009933;
+		}
+
+		/*开始轮播图*/
+		#nav-box{
+			width:100%;
+			background-color: #EFEFEF;
+		}
+		#nav{
+			position: relative;
+			margin:0px auto;
+			width:1040px;
+			height:320px;
+		}
+
+		#nav img{
+			display: block;
+			width:100%;
+			height:100%;
+		}
+
+		#prevBtn{
+			position: absolute; top:0; left:0;
+			z-index: 100;
+			background-color: rgba(0,0,0,.6);
+		}
+		#nextBtn{
+			position: absolute; top:0; right:0;
+			background-color: rgba(0,0,0,.6);
+			z-index: 100;
+		}
+		#prevBtn,#nextBtn{
+			display: block;
+			padding:5px;
+			width:40px;
+			height:80px;
+			margin-top:12%;
+		}
+		/*结束轮播图*/
+
+
+		/*开始信息展示*/
+
+
+		 .information{
+	    	margin:0 auto;
+             width:85%;
+	    }
+
+	    .information div{
+	    	overflow: hidden;
+	    	padding-left:10px;
+	    	background-color: #E3E6E6;
+	    	border-radius: 20px 0 0 0;
+	    }
+	     .information div img{
+	     	float:left;
+	     	width:40px;
+	     	height:40px;
+	     }
+	    .information div h3{
+            float:left;
+	    	padding:5px 0 0 12px;
+	    	height:30px;
+	    	font-size: 16px;
+	    	line-height: 30px;
+	    }
+	    .information div p{
+            float:right;
+	    	padding:10px 12px 0 0;
+	    	height:35px;
+	    	vertical-align: middle;
+	    	font-size: 12px;
+	    }
+	    .information div p:hover{
+	    	text-decoration: underline;
+	    }
+	    .information ul{
+           width:100%;
+           padding:10px;
+	    }
+	    .information ul li{
+	    	margin:10px 0;
+	    	padding:2px;
+	    	width:100%;
+	    	list-style: none;
+	    	overflow: hidden;
+	    	border-bottom: 1px dashed #cfcfcf;
+	    }
+	    .information ul li img{
+	    	display: block;
+	    	float:left;
+	    	width:18px;
+	    	height:18px;
+	    }
+	    .information ul li .contentText{
+	    	float:left;
+	    	margin-left:30px;
+	    	width:60%;
+	    	height:100%;
+	    	font-size: 15px;
+	    	display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 1;
+			overflow: hidden;
+	    }
+	    .information ul li .time{
+	    	float:right;
+	    	width:30%;
+	    	height:100%;
+	    	text-align: right;
+	    	font-size:12px;
+	    }
+		/*结束信息展示*/
+
+		/*页脚*/
+		#footer{
+			margin-top:20px;
+			width:100%;
+			height:50px;
+			border-top:6px solid #005E5E;
+		}
+		#footer p{
+			margin:10px;
+			text-align: center;
+			font-family: "NSimSun";
+			font-size: 12px;
+		}

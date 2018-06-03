@@ -1,0 +1,182 @@
+ *{
+        	padding:0px;
+        	margin:0px;
+        }
+
+        li{
+        	list-style: none;
+        }
+		a{
+			text-decoration:none;
+			color:#FFFFFF;
+		}
+        /*头部信息开始*/
+        #head{
+        	margin:20px auto;
+        	width:100%;
+        }
+        .logo{
+        	float: left;
+        	display: block;
+        	margin-left:10%;
+        }
+        .search{
+        	float:right;
+        	margin:40px 10% 0px 0px;
+        	overflow: hidden;
+        }
+		.search-text{
+			float:left;
+			display: block;
+			height:202px;
+			height:30px;
+		}
+		.search-btn{
+			float:left;
+			width:32px;
+			height:34px;
+			background-color: #3E50B4;
+		}
+		.search-btn img{
+			display: block;
+			width:25px;
+			height: 25px;
+			margin: 3px auto;
+
+		}
+		.management{
+			float:right;
+			margin:45px 8% 0px 0px;
+		}
+		.management p{
+			float:left;
+			margin-left:5px;
+		}
+		.management p:hover{
+			cursor: pointer;
+		}
+		.login{
+			margin-left:20px;
+		}
+
+        /*头部信息结束*/
+
+        /*导航的开始*/
+		#nav{
+			height:60px;
+			margin-top:30px;
+			background-color: #3F51B5;
+		}
+		.message{
+			float:left;
+			position: relative;
+			width:150px;
+			color:white;
+			line-height:60px;
+			text-align: center;
+
+		}
+		.message:hover{
+			background-color: #313E84;
+		}
+		.message ul{
+			position: absolute; top:60px; left:0px;
+			display: none;
+			width:100%;
+			height:60px;
+
+		}
+		.message:hover ul{
+			display: block;
+		}
+		.message ul li{
+			border-top:1px solid white;
+			background-color: #313E84;
+			width:100%;
+			height:100%;
+
+		}
+		/*导航的结束*/
+
+	/*轮播图的开始*/
+		.play{
+			width:100%;
+		}
+	/*轮播图的结束*/
+
+
+	 /*信息展示开始*/
+	  .content-box{
+	  	 margin:20px auto;
+	  	 padding:5px;
+	  	 width:80%;
+	  	 height:500px;
+	  }
+	  .content-box-search{
+	  	  float:left;
+		  width:25%;
+		  height:100%;
+		  background-color: #99CCFF;
+	  }
+	  .content-box-search li{
+	  	  margin:10px auto;
+	  	  width:75%;
+	  	  height:40px;
+	  	  font-size: 20px;
+	  	  font-family: "楷体";
+	  	  text-align: center;
+	  	  line-height:30px;
+	  }
+
+	  .content-box-content{
+	  	  float:left;
+	  	  width:72%;
+	  	  height:100%;
+	  }
+	  .content-box-important{
+	  	  padding:5px;
+	  }
+
+	  table tr:nth-child(odd){
+
+		background: #ccc;
+
+		}
+
+	   .content-box-important table{
+		   width:100%;
+	   }
+
+	  .content-box-important  tr td{
+		  padding:5px;
+		  text-align: center;
+	  }
+	  .server{
+		  font-size:14px;
+	  }
+	  .content-box-important li{
+	  	 padding:0px 0 0 70px;
+	  	 height:100%;
+	  	 display: none;
+
+	  }
+	  .title{
+	  	 text-align: center;
+	  }
+	  .word{
+	  	 margin-top:30px;
+	  	 text-indent: 2em;
+	  	 letter-spacing: 7px;
+	  	 word-wrap: break-word;
+
+	  }
+
+
+
+	 /*信息展示结束*/
+
+	 /*页尾信息开始*/
+	 #footer{
+	 	margin:50px auto;
+	 	text-align: center;
+	 }

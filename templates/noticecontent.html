@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>社区生活</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/content.css">
+</head>
+<body>
+	<!-- 这里是其中的头部信息开始 -->
+	 <div class="headBox" style="width:100%;">
+        <div class="head_logo">
+            <a href="index.html">
+                <img src="/static/images/logo.png">
+            </a>
+        </div>
+    </div>
+    <div class="nav"  style="width:100%;">
+        <ul id="onav">
+            <li class="one_nav">
+                <a href="/">
+                    首页
+                </a>
+
+            </li>
+            <li class="one_nav">
+                <a href="/company.html">
+                    公司介绍
+                </a>
+
+                <ul class="two_nav">
+                    <li>公司简介</li>
+                    <li>组织架构</li>
+                    <li>企业文化</li>
+                    <li>团队建设</li>
+                    <li>大事记</li>
+                </ul>
+            </li>
+            <li class="one_nav">
+                <a href="/news.html">
+                   新闻中心
+                </a>
+
+                <ul class="two_nav">
+                    <li>公司新闻</li>
+                    <li>地方动态</li>
+                    <li>媒体新闻</li>
+                </ul>
+            </li>
+            <li class="one_nav">
+                <a href="/product.html">
+                    产品服务
+                </a>
+
+                <ul class="two_nav">
+                    <li>家政维修</li>
+                    <li>汽车维修</li>
+                    <li>便民维修</li>
+                </ul>
+            </li>
+            <li class="one_nav">
+                <a href="/life.html">
+                    社区生活
+                </a>
+
+                <ul class="two_nav">
+                    <li>业主之家</li>
+                </ul>
+            </li>
+            <li class="one_nav">
+                <a href="/join.html">
+                    加入庄勇
+                </a>
+
+                <ul class="two_nav">
+                    <li>招聘信息</li>
+                </ul>
+            </li>
+            <li class="one_nav">
+                <a href="/advice.html">
+                    投诉建议
+                </a>
+
+                <ul class="two_nav">
+                    <li>投诉电话</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+	<!-- 导航栏的结束 -->
+
+
+	<!-- 这里是其中的信息展示 -->
+	<div id="message">
+		<div id="message-right">
+			<h3>{{list.title}}</h3><p id="biaoZhi" style="display: none;">{{list.img}}</p>
+            <hr/>
+			<p>{{list.content}}</p>
+			<p id="img"><img src="/static/media/{{list.img}}"/></p>
+			<script>
+				var biaoZhi = document.getElementById("biaoZhi");
+				var img = document.getElementById("img");
+				if(biaoZhi.innerText==""){
+
+				    img.style.display="none";
+				}
+			</script>
+			<div class="anthorTime">
+				<!--<p>发布人：{{list.author}}</p>-->
+				<p>发布时间：{{list.pub_date}}</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 页脚 -->
+	<div style="clear: both;"></div>
+
+                            <div class="footer" style="width:100%;">
+                                <div class="content">
+                                    <span>
+                copyright@:西安庄勇物业管理有限公司
+            </span>
+                                    <span>
+                电话:18591987101
+            </span>
+                                    <span>
+                地址:西安市雁塔区兴善东街8号蓝溪都市花园
+            </span>
+                                </div>
+                            </div>
+
+</body>
+</html>
